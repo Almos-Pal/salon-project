@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+    div.swiper-button-prev,
+    div.swiper-button-next {
+        @apply
+        text-white;
+    }
+    
+    span.swiper-pagination-bullet {
+        @apply
+        bg-white;
+    }
