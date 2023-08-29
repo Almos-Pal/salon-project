@@ -1,4 +1,4 @@
-export {default as BeauticianIConLarge} from './BeauticianIConLarge.svg';
+export {default as BeauticianIConLarge} from './BeauticianIconLarge.svg';
 export {default as BeauticianProducts} from './BeauticianProducts.svg';
 export {default as BeauticianIconXL} from './BeauticianIconXL.svg';
 export {default as BeauticianIconMobile} from './BeauticianIconMobile.svg';
