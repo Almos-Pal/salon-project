@@ -9,13 +9,13 @@ import Contact from '../components/Contact'
 export default function Home() {
   const Images = {
     src: [
-      "/public/Images/place/inside1.webp",
-      "/public/Images/place/inside2.webp",
-      "/public/Images/place/inside3.webp",
-      "/public/Images/place/houseOutside.webp",
-      "/public/Images/KoselaErika/beaPlace1.webp",
-      "/public/Images/KoselaErika/beaPlace2.webp",
-      "/public/Images/KoselaErika/beaPlace3.webp",
+      "/Images/place/inside1.webp",
+      "/Images/place/inside2.webp",
+      "/Images/place/inside3.webp",
+      "/Images/place/houseOutside.webp",
+      "/Images/KoselaErika/beaPlace1.webp",
+      "/Images/KoselaErika/beaPlace2.webp",
+      "/Images/KoselaErika/beaPlace3.webp",
       ],
       ImageAlts : [
         "Belső kép a szalonról, váró részleg.",

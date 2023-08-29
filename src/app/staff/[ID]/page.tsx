@@ -46,10 +46,10 @@ export default function Members({params: {ID}} : Props)  {
             hasJob: false,
             Images: {
               src: [
-                "/public/Images/place/inside1.webp",
-                "/public/Images/place/inside2.webp",
-                "/public/Images/place/inside3.webp",
-                "/public/Images/place/houseOutside.webp",
+                "/Images/place/inside1.webp",
+                "/Images/place/inside2.webp",
+                "/Images/place/inside3.webp",
+                "/Images/place/houseOutside.webp",
               ],
               ImageAlts: [
                 "Belső kép a szalonról, váró részleg.",
@@ -83,18 +83,18 @@ export default function Members({params: {ID}} : Props)  {
           hasJob: true,
           Images: {
             src: [
-              "/public/Images/KoselaErika/beaPlace1.webp",
-              "/public/Images/KoselaErika/beaPlace2.webp",
-              "/public/Images/KoselaErika/beaPlace3.webp",
-              "/public/Images/KoselaErika/beaWork1.webp",
-              "/public/Images/KoselaErika/After1.webp",
-              "/public/Images/KoselaErika/After2.webp",
-              "/public/Images/KoselaErika/After3.webp",
-              "/public/Images/KoselaErika/After4.webp",
-              "/public/Images/KoselaErika/After5.webp",
-              "/public/Images/KoselaErika/Before1.webp",
-              "/public/Images/KoselaErika/Before2.webp",
-              "/public/Images/KoselaErika/Before3.webp",
+              "/Images/KoselaErika/beaPlace1.webp",
+              "/Images/KoselaErika/beaPlace2.webp",
+              "/Images/KoselaErika/beaPlace3.webp",
+              "/Images/KoselaErika/beaWork1.webp",
+              "/Images/KoselaErika/After1.webp",
+              "/Images/KoselaErika/After2.webp",
+              "/Images/KoselaErika/After3.webp",
+              "/Images/KoselaErika/After4.webp",
+              "/Images/KoselaErika/After5.webp",
+              "/Images/KoselaErika/Before1.webp",
+              "/Images/KoselaErika/Before2.webp",
+              "/Images/KoselaErika/Before3.webp",
   
             ],
             ImageAlts: [
@@ -132,13 +132,13 @@ export default function Members({params: {ID}} : Props)  {
           hasJob: true,
           Images:{
             src: [
-              "/public/Images/SusaMaria/manWork1.webp",
-              "/public/Images/SusaMaria/manWork2.webp",
-              "/public/Images/SusaMaria/manWork3.webp",
-              "/public/Images/SusaMaria/manWork4.webp",
-              "/public/Images/SusaMaria/manWork5.webp",
-              "/public/Images/SusaMaria/manWork6.webp",
-              "/public/Images/SusaMaria/manWork7.webp",
+              "/Images/SusaMaria/manWork1.webp",
+              "/Images/SusaMaria/manWork2.webp",
+              "/Images/SusaMaria/manWork3.webp",
+              "/Images/SusaMaria/manWork4.webp",
+              "/Images/SusaMaria/manWork5.webp",
+              "/Images/SusaMaria/manWork6.webp",
+              "/Images/SusaMaria/manWork7.webp",
             ],
             ImageAlts: [
               "Piros-fehérre festet köröm, csillagokkal a köröm közepén.",
