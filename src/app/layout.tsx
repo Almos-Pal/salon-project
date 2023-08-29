@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import './globals.css'
 
 
+
 export const metadata: Metadata = {
   title: 'Kispatak Szépségszalon',
   description: 'Created by Pál Álmos',

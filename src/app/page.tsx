@@ -1,9 +1,9 @@
-import Image from 'next/image'
 import Hero from '../components/home/Hero'
 import Description from '../components/home/Descriptoin'
 import Staff from '../components/home/Staff'
 import Gallery from '../components/Gallery'
 import Contact from '../components/Contact'
+
 
 
 export default function Home() {

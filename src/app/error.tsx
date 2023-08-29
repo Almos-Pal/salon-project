@@ -1,4 +1,4 @@
-'use client' // Error components must be Client Components
+'use client' 
  
 import { useEffect } from 'react'
 import Image from 'next/image'
@@ -13,7 +13,7 @@ export default function Error({
   reset: () => void
 }) {
   useEffect(() => {
-    // Log the error to an error reporting service
+
     console.error(error)
   }, [error])
  
@@ -33,7 +33,7 @@ export default function Error({
             </Link>
             <button className="bg-white text-black font-bold text-xl w-48 px-5 py-1 rounded-md md:mb-5 xl:bg-primary xl:text-white  transform duration-300 border-8 border-white xl:border-primary xl:hover:border-primary xl:hover:bg-transparent xl:hover:text-black 3xl:text-2xl 3xl:w-60 3xl:py-2"
         onClick={
-          // Attempt to recover by trying to re-render the segment
+   
           () => reset()
         }
       >

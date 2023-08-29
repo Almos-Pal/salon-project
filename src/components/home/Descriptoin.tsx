@@ -28,6 +28,7 @@ export default function Description() {
           alt="A szalonról egy külső fotó"
           objectFit="cover"
           layout="responsive"
+          placeholder="blur"
         />
         </div>
        
