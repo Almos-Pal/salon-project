@@ -39,15 +39,15 @@ export default function Contact() {
           </div>
           <div>
             <p className="font-bold text-lg xl:text-xl 3xl:text-3xl">Telefonszámok:</p>
-            <p>Fodrászat: <a href="tel:+3630 3756 018" className="hover:font-black transition duration-300">+3630 3756 018</a></p>
-            <p>Mester kozmetika: <a href={`tel:+3620 5544 139`} className="hover:font-black transition duration-300">3620 5544 139</a></p>
-            <p>Manikűr-műköröm: <a href={`tel:+3620 5228 350`}  className="hover:font-black transition duration-300">+3620 5228 350</a></p>
+            <p>Fodrászat: <a href="tel:+36 30 3756 018" className="hover:font-black transition duration-300">+36 30 3756 018</a></p>
+            <p>Mester kozmetika: <a href={`tel:+36 20 5544 139`} className="hover:font-black transition duration-300">+36 20 5544 139</a></p>
+            <p>Manikűr-műköröm: <a href={`tel:+36 20 5228 350`}  className="hover:font-black transition duration-300">+36 20 5228 350</a></p>
           </div>
         </div>
         <p className="p-10">Vegye fel a kapcsolatot velünk online.</p>
       </div>
       
-      <div className="pt-10 xl:pt-0  w-10/12  xl:w-1/2 xl:self-end">
+      <div className="pb-10 xl:pb-0  pt-10 xl:pt-0  w-10/12  xl:w-1/2 xl:self-end">
         <iframe
           className="w-full xl:h-[50rem]"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.818570979896!2d19.2637599!3d47.395972699999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741ea9b63e15675%3A0x69adaaf977a713b0!2sVecs%C3%A9s%2C%20Aulich%20Lajos%20u.%2011%2C%202220!5e0!3m2!1shu!2shu!4v1691326343724!5m2!1shu!2shu"

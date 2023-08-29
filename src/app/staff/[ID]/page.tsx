@@ -1,7 +1,6 @@
 import Hero from '@/src/components/staff/Hero';
 import Products from '@/src/components/staff/Products';
 import InformationCards from '@/src/components/staff/InformationCards';
-
 import Gallery from '@/src/components/Gallery'
 import Contact from '@/src/components/Contact';
 import { StaffMemberPage } from '@/typings';
@@ -40,7 +39,7 @@ export default function Members({params: {ID}} : Props)  {
             ],
             productsSvg:  HairDresserProducts,
             productsSvgAlt: "Hajszárító, fésű, olló, borotva",
-            phone: "+3630 3756 018",
+            phone: "+36 30 3756 018",
             mainIconAlt: "Egy nő vágja a férfi haját.",
             mainIcon: HairDresserIcon,
             hasJob: false,
@@ -64,7 +63,7 @@ export default function Members({params: {ID}} : Props)  {
         {
             id: "KoselaErika",
           name: "Kosela Erika",
-          description: "frissítő, regenaráló, tisztító, feszesítő, anti-aging,hámlasztó, bőrmegújító kezelések.",
+          description: "frissítő, regenaráló, tisztító, feszesítő, anti-aging, hámlasztó, bőrmegújító kezelések.",
             job: "Mester kozmetika",
             services: [
               "zsírbontó testkezelés",
@@ -75,7 +74,7 @@ export default function Members({params: {ID}} : Props)  {
               "sminktetoválás",
               "bőrápolási szaktanácsadás",
             ],
-          phone: "+3620 5544 139",
+          phone: "+36 20 5544 139",
           productsSvg:BeauticianProducts,
           productsSvgAlt:"Szemöldök és szempilla, gyanta, csipesz, vattapamacs, púderecset, szempillaspirál",
           mainIcon: BeauticianIconMobile,
@@ -117,14 +116,14 @@ export default function Members({params: {ID}} : Props)  {
         {
             id:"SusaMaria",
           name: "Susa Mária",
-          description: "Próbáld ki a tartós és fényes eredményt nyújtó géllakozást a tökéletes manikűrhöz, vagy válaszd a zselés építést és töltést, amely hosszan tartó és erős körmöket eredményez.",
+          description: "Próbáld ki a tartós és fényes eredményt nyújtó géllakozást a tökéletes manikűrhöz, vagy válaszd a zselés építést és töltést, amely hosszantartó és erős körmöket eredményez.",
           job: "Manikűr - műköröm",
           services: [
-            "Géllakozás",
-            " Zselés építés és töltés",
+            "géllakozás",
+            " zselés építés és töltés",
             
           ],
-          phone: "+3620 5228 350",
+          phone: "+36 20 5228 350",
           productsSvg: ManicureProducts,
           productsSvgAlt:"Körömvágó olló, piros táska, körömcsipesz, géllak, körömreszelő, körömbőr feltoló",
           mainIcon: ManicureIcon,

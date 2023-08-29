@@ -9,7 +9,7 @@ const Staff: React.FC = () => {
       id: "CsomorKatalin",
       name: "Csomor Katalin",
       description: "Női - férfi fodrász",
-      phone: "+3630 3756 018",
+      phone: "+36 30 3756 018",
       src: "/Images/Staff/CsomorKatalin.jpg",
     },
 
@@ -17,14 +17,14 @@ const Staff: React.FC = () => {
       id: "KoselaErika",
       name: "Kosela Erika",
       description: "Mester kozmetika",
-      phone: "+3620 5544 139",
+      phone: "+36 20 5544 139",
       src: "/Images/Staff/KoselaErika.jpg",
     },
     {
       id:"SusaMaria",
       name: "Susa Mária",
       description: "Manikűr - műköröm",
-      phone: "+3620 5228 350",
+      phone: "+36 20 5228 350",
       src: "/Images/Staff/SusaMaria.jpg",
     },
   ];
