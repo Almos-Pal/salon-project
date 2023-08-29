@@ -13,3 +13,7 @@
         @apply
         bg-white;
     }
+
+    nextjs-portal {
+        display: none;
+      }

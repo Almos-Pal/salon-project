@@ -20,7 +20,7 @@ const Gallery: React.FC<GalleryProps> = ({ hasJob, Images }) => {
       <h1 className="text-3xl font-black py-10 xl:text-6xl 3xl:text-8xl 3xl:pt-32">{hasJob? "Munkáim":"Galéria"}</h1>
       <div className="w-full  relative ">
       
-      <Swiper className="w-full sm:w-3/4  md:h-[25rem] lg:w-1/2 xl:w-3/8 xl:h-[29rem] 2xl:2/8 2xl:h-[35rem] 3xl:1/8 3xl:h-[45rem] h-80 swiper "
+      <Swiper className=" aspect-w-16 aspect-h-9 w-full h-80 sm:w-8/12 sm:h-80  md:h-[25rem] lg:w-1/2 xl:w-3/8 xl:h-[29rem] 2xl:2/8 2xl:h-[35rem] 3xl:1/8 3xl:h-[45rem]  swiper "
       slidesPerView={1}
       loop={true}
        autoplay={{

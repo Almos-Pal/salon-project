@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { NavItemProps } from "@/typings";
-import Svgs from "../src/svg/Svgs";
+import Svgs from "./svg/Svgs";
 
 const NavItem: React.FC<NavItemProps> = ({ text, href, active, setNavActive }) => {
   const isServiceDropdown = text === "Szolgáltatások";
