@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { HairDresserIcon } from "@/src/svg";
+import { HairDresserIcon } from "@/src/components/svg";
 
 export default function Hero() {
   return (

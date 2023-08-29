@@ -12,6 +12,5 @@ export {default as ManicureIcon} from './ManicureIcon.svg';
 export {default as ManicureProducts} from './ManicureProducts.svg';
 export {default as PhoneIcon} from './PhoneIcon.svg';
 export {default as PhoneIcon2} from './PhoneIcon2.svg';
-export {default as DropdownIcon} from './DropdownIcon.svg'
 export {default as NotFoundIcon} from './NotFoundIcon.svg'
 export {default as ErrorIcon} from './ErrorIcon.svg'

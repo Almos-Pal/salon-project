@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { PhoneIcon,LocationIcon } from "@/src/svg";
+import { PhoneIcon,LocationIcon } from "@/src/components/svg";
 
 export default function Contact() {
   return (
@@ -22,7 +22,7 @@ export default function Contact() {
             />
           </div>
           <div>
-            <h3 className="font-bold text-lg xl:text-xl 3xl:text-3xl">Cím:</h3>
+            <p className="font-bold text-lg xl:text-xl 3xl:text-3xl">Cím:</p>
             <p>2220 Vecsés</p>
             <p>Aulich Lajos utca 11</p>
           </div>
@@ -38,10 +38,10 @@ export default function Contact() {
             />
           </div>
           <div>
-            <h3 className="font-bold text-lg xl:text-xl 3xl:text-3xl">Telefonszámok:</h3>
-            <p>Fodrászat: +3630 3756 018</p>
-            <p>Mester kozmetika: +3620 5544 139</p>
-            <p>Manikűr-műköröm: +3620 5228 350</p>
+            <p className="font-bold text-lg xl:text-xl 3xl:text-3xl">Telefonszámok:</p>
+            <p>Fodrászat: <a href="tel:+3630 3756 018" className="hover:font-black transition duration-300">+3630 3756 018</a></p>
+            <p>Mester kozmetika: <a href={`tel:+3620 5544 139`} className="hover:font-black transition duration-300">3620 5544 139</a></p>
+            <p>Manikűr-műköröm: <a href={`tel:+3620 5228 350`}  className="hover:font-black transition duration-300">+3620 5228 350</a></p>
           </div>
         </div>
         <p className="p-10">Vegye fel a kapcsolatot velünk online.</p>

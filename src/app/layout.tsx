@@ -1,12 +1,13 @@
-import './globals.css'
 import type { Metadata } from 'next'
-import Navbar from './Navbar'
-import Footer from './Footer'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import './globals.css'
 
 
 export const metadata: Metadata = {
   title: 'Kispatak Szépségszalon',
   description: 'Created by Pál Álmos',
+ 
 }
 
 export default function RootLayout({

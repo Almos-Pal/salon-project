@@ -9,9 +9,9 @@ const StaffMember: React.FC<StaffMemberProps> = ({id, name, description, phone, 
 
       <Image src={src} alt={`${name} profilképe.`  } layout="fill" className="rounded-full" />
       </div>
-      <h3 className="font-bold text-lg xl:text-xl 3xl:text-3xl 3xl:pt-10">{name}</h3>
+      <p className="font-bold text-lg xl:text-xl 3xl:text-3xl 3xl:pt-10">{name}</p>
       <p>{description}</p>
-      <p>{phone}</p>
+      <p><a href={`tel:${phone}`} className="hover:font-black transition-colors duration-800 ease-in-out">{phone}</a></p>
       <Link href={`/staff/${id}`}> 
       <button className="bg-primary text-white font-bold text-xl w-48  py-1 rounded-md md:mb-5 sm:bg-primary sm:text-white  transform duration-300 border-8 border-primary sm:hover:border-primary sm:hover:bg-transparent sm:hover:text-black 3xl:text-2xl 3xl:w-60 3xl:py-2 3xl:mt-10">Tudj meg többet</button>
       </Link>

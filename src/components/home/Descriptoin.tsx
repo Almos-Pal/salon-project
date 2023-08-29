@@ -1,5 +1,5 @@
 import Image from "next/image";
-import salon from "../public/Images/place/houseOutside.webp";
+import salon from "@/public/Images/place/houseOutside.webp";
 import Link from "next/link";
 
 
@@ -8,7 +8,7 @@ export default function Description() {
     <section id="Description" className="bg-white flex flex-col justify-between items-center max-h-screen ">
       <div className="flex flex-col gap-10 justify-center md:flex-row ">
         <div className="flex flex-col gap-10 justify-center items-center xl:w-1/2 mt-10 text-center xl:p-20 2xl:p-40 3xl:p-60 ">
-        <h1 className="text-3xl font-black xl:text-6xl 3xl:text-8xl ">Kedves látógató!</h1>
+        <h1 className="text-3xl font-black xl:text-6xl 3xl:text-8xl ">Kedves látogató!</h1>
 
           <p className="px-10">
             Üzletünk immár 20 éve vár benneteket. Családias légkör, tapasztalt,
