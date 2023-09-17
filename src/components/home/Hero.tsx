@@ -24,14 +24,14 @@ export default function Hero() {
           <div className="flex justify-center items-center z-10">
             <div className="flex justify-items-center items-center w-[17.5rem] h-[23rem]">
               <Image
-              className="max-h-screen"
-                src={HairDresserIcon}
-                alt="Egy nő vágja a férfi haját."
-                objectFit="contain"
-                layout="fill"
-                sizes="100%"
-                objectPosition="bottom "
-                priority
+                className="h-screen"
+                        src={HairDresserIcon}
+                        alt="Egy nő vágja a férfi haját."
+                        objectFit="contain"
+                        layout="fill"
+                        objectPosition="bottom "
+                        priority
+                      
               />
             </div>
           </div>
